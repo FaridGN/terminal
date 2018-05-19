@@ -1,0 +1,26 @@
+body{
+    margin: 0px auto;
+}
+.grid-container{
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    grid-template-rows: auto;
+}
+
+.btn{
+    width:180px;
+    height:180px;
+    margin:5px; 
+    background-color: lightblue;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+
