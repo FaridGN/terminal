@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config/base.js"></script>
+</head>
+<body>  
+         <input class = "intbox" type ="text" name = "username"><br>
+         <input class = "intbox" type ="text" name = "password">
+         <div class="btn">
+         <button id="send">Login</button>
+         <button id="signin" onclick="Reg()">Register</button>
+        </div> 
+
+     <div id="register" style="display: none">
+         <p>Username</p>
+          <input class="ipt" type = "text" name ="username"><br>
+          <p>Password</p>
+          <input class="ipt" type = "text" name ="password"><br>
+          <p>Email</p>
+          <input class="ipt" type = "text" name ="email">
+          <button onclick ="add()">Add</button>
+
+     </div>
+
+    <script defer src="js/config/script.js"></script>
+
+</body>
+</html>
